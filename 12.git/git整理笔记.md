@@ -169,6 +169,7 @@ token值：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
 解决办法：
 
 ```
+一进去git界面就先执行git pull命令，而且要上传的资料需与上一次上传到远程库中的资料的路径要一致
 # 将不同的资料推送到同一个仓库中时，需要先拉取下来
 git pull 远程地址名 分支名
 # 再进行推送
@@ -209,6 +210,7 @@ git push --force origin master # 强行推送
 ## 9. git pull
 
 ```
+一进去git界面就先执行git pull命令，而且要上传的资料需与上一次上传到远程库中的资料的路径要一致
 # 将不同的资料推送到同一个仓库中时，需要先拉取下来
 git pull 远程地址名 分支名
 # 再进行推送
